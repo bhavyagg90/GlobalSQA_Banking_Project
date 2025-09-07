@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-07T22:40:07 IST" name="Cucumber TestNG Suite" finished-at="2025-09-07T22:42:48 IST" duration-ms="160887">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-07T22:40:07 IST" name="Cucumber Tests" finished-at="2025-09-07T22:42:48 IST" duration-ms="160887">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:07 IST" name="setUpClass" finished-at="2025-09-07T22:40:08 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18d87d80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:40:13 IST" duration-ms="4598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a new customer successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bank Manager Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:40:25 IST" duration-ms="12634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Attempt to add a customer with blank fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bank Manager Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:40:33 IST" duration-ms="7470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open a new account for an existing customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bank Manager Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:40:57 IST" duration-ms="23724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Attempt to open an account without selecting a customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bank Manager Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:40:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:41:07 IST" duration-ms="10691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer successfully deposits money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customer Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:41:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:41:19 IST" duration-ms="11836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer attempts to deposit a zero amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customer Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:42:24 IST" duration-ms="64618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer attempts to deposit a negative amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customer Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:42:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:42:41 IST" duration-ms="17526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer successfully withdraws money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customer Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:42:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-07T22:42:48 IST" duration-ms="6741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer attempts to withdraw more than the balance"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Customer Functionalities"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@f2ff811]" started-at="2025-09-07T22:42:48 IST" name="tearDownClass" finished-at="2025-09-07T22:42:48 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Cucumber TestNG Suite -->
+</testng-results>
