@@ -52,6 +52,11 @@
         	<artifactId>SeleniumJavaAutomationProject</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+        	<groupId>selenium</groupId>
+        	<artifactId>selenium</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
